@@ -1,0 +1,130 @@
+.container{
+    background: url('./image1.jpg') no-repeat center center/cover;
+    font-family: 'Lato',sans-serif;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navhead{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    height: 100px;
+    background-color: #4585d8;
+   
+}
+
+.logo{
+    display: flex;
+   margin-left: 40px;
+    font-size: 40px;
+    padding: 20px;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.navflex1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 70px;
+}
+.nav-item1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding: 10px;
+}
+.navflex2{
+    display: flex;
+    flex-direction: row;
+    padding-left: 400px;
+}
+.nav-item2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding: 10px;
+}
+.nav-item2 i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding: 10px;
+}
+
+.section{
+   
+    margin-top: 100px;
+}
+
+.sec-btn1{
+ 
+    float: right;
+    padding: 15px;
+    font-size: 15px;
+    width:150px;
+    border: 1px solid #fff;
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+}
+.sec-btn1 span{
+    padding-left: 10px ;
+    font-size: 15px;
+}
+
+.sec-btn1:hover{
+    background-color: #4585d8;
+    border: 1px solid #4585d8;
+    color: #fff;
+}
+
+.sectionbody{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+
+.text1{
+color: #fff;
+font-size: 70px;
+margin-left: 50px;
+width: 600px;
+height: 160px;
+}
+
+.text2{
+    color: #fff;
+    font-size: 30px;
+    margin-left: 50px;
+    width: 600px;
+    height: 80px; 
+    padding-top: 30px;
+}
+
+.btn1{
+    margin-left: 50px;
+    padding: 16px 28px;
+    font-weight: bold;
+    border: 1px solid #fff;
+}
+.btn2{
+    margin-left: 15px;
+    padding: 16px 28px;
+    border: 1px solid #fff;
+    font-weight: bold;
+    color: #fff;
+    background-color: transparent;
+}
+.btn1:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: #fff;
+    transition: all 0.5s;
+}
+.btn2:hover{
+    transition: all 0.5s;
+    background-color: #fff;
+    color: black;
+}
+
